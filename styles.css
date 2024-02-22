@@ -39,7 +39,7 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
+    display: none;
     text-decoration: none;
     margin-bottom: 1em;
 }
@@ -117,9 +117,10 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
+    display: none;
     text-decoration: none;
     margin-bottom: 1em;
+    width: auto;
 }
 
 .botao__secundario {
