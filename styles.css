@@ -24,13 +24,9 @@ body {
     background-image: url(Img/logomaria.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center; /* Adicionei esta linha para centralizar a imagem no fundo */
-    align-items: center; /* Se este seletor estiver correto, pode ser removido, pois não se aplica a elementos com fundo de imagem */
-    text-align: center; /* Se este seletor estiver correto, pode ser removido, pois não se aplica a elementos com fundo de imagem */
-    display: flex; /* Adicionei este seletor para garantir a centralização vertical em dispositivos móveis */
-    justify-content: center; /* Adicionei este seletor para garantir a centralização horizontal em dispositivos móveis */
+    align-items: center;
+    text-align: center;
 }
-
 
 .container {
     height: 100vh ;
@@ -181,5 +177,19 @@ body {
         display: block;
         text-decoration: none;
         margin-bottom: 1em;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .principal {
+        background-image: url(Img/logomaria.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        margin-top: 50vh; /* Adicionei uma margem superior como metade da altura da viewport */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh; /* Ajustei a altura para 50% da viewport */
     }
 }
