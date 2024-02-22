@@ -34,82 +34,6 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.container__botao {
-    background-color: var(--bota-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
-    display: none;
-    text-decoration: none;
-    margin-bottom: 1em;
-}
-
-.botao__secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal);
-}
-
-.container__aviso {
-    font-size: 12px;
-    color: var(--cinza-secundario);
-}
-
-.container__titulo {
-    font-size: 28px;
-    font-weight: 700;
-    margin: 1.5em;
-}
-
-.container__imagem {
-    margin: 1em 0 2em 0;
-}
-
-.container__caixa {
-    margin: 0 6em;
-}
-
-.secundario {
-    align-items: center;
-    margin: 0 10em;
-}
-
-.rodape__lista {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin-top: 1em;
-}
-
-.lista__link a{
-    text-decoration: none;
-    color: var(--branco-principal);
-    margin-left: 1em;
-}
-
-.rodape__texto {
-    margin: 1em 0;
-    color: var(--cinza-secundario);
-    font-size: 14px;
-}
-
-.rodape {
-    text-align: center;
-    margin: 5em 3em;
-}
-
-.lista__link a:hover {
-    color: var(--bota-azul);
-}
-
-.lista__link a:active {
-    color: purple;
-}
-
-.container__botao:hover {
-    background-color: var(--botao-azul-efeito);
-    color: var(--cor-de-fundo);
-}
-
 @media screen and (min-width: 1024px) {
 
 .container__botao {
@@ -117,10 +41,9 @@ body {
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: none;
+    display: block;
     text-decoration: none;
     margin-bottom: 1em;
-    width: auto;
 }
 
 .botao__secundario {
@@ -190,3 +113,35 @@ body {
 }
 
 }
+
+@media screen and (max-width: 1023px) {
+    .container {
+        grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .container__botao {
+        padding: 0.8em;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .container__caixa {
+        margin: 0 2em;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .rodape {
+        margin: 3em;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .rodape__texto {
+        font-size: 12px;
+    }
+}
+
