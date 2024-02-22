@@ -34,6 +34,11 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
 .container__botao {
     background-color: var(--bota-azul);
     border-radius: 5px;
@@ -164,3 +169,10 @@ body {
     }
     /* Adicione mais estilos específicos para telas menores aqui */
 }
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
