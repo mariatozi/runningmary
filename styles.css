@@ -62,6 +62,7 @@ body {
     margin: 1.5em;
     font-family: var(--fonte-principal);
     justify-content: center;
+    align-items: flex-end;
 }
 
 .container__imagem {
