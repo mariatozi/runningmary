@@ -179,17 +179,3 @@ body {
         margin-bottom: 1em;
     }
 }
-
-@media screen and (max-width: 1023px) {
-    .principal {
-        background-image: url(Img/logomaria.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center center;
-        margin-top: 50vh; /* Adicionei uma margem superior como metade da altura da viewport */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50vh; /* Ajustei a altura para 50% da viewport */
-    }
-}
