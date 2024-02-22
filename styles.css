@@ -41,14 +41,6 @@ body {
     font-family: var(--fonte-principal);
 }
 
-@media screen and (min-width: 1023px)
-    {
-        .container__titulo{
-            font-family: var(--fonte-principal);
-        }
-    }
-
-
 @media screen and (min-width: 1023px) {
 
 .container__botao {
