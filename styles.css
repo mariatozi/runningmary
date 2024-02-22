@@ -123,8 +123,13 @@ body {
 
 @media screen and (max-width: 1023px) {
     .container__botao {
-        padding: 0.8em;
-        font-size: 14px;
+        background-color: var(--bota-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: 1em;
     }
 }
 
@@ -165,9 +170,12 @@ body {
     }
 
     .container__botao {
-        padding: 0.8em;
-        font-size: 14px;
-        margin-top: 1em;
-        width: 100%; /* Faz o botão ocupar a largura completa */
+        background-color: var(--bota-azul);
+        border-radius: 5px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+        margin-bottom: 1em;
     }
 }
