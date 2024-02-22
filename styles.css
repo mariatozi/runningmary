@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url(Img/logomaria.png);
+    background-image: url(Img/001.png);
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -61,6 +61,7 @@ body {
     font-weight: 700;
     margin: 1.5em;
     font-family: var(--fonte-principal);
+    justify-content: center;
 }
 
 .container__imagem {
