@@ -145,23 +145,25 @@ body {
     }
 }
 
+/* -- */
+
 @media screen and (max-width: 1023px) {
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    .container__caixa {
+        margin: 0 2em;
+    }
+
     .container__titulo {
         font-size: 20px;
+        text-align: center;
     }
-}
 
-.container__caixa {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.container__titulo {
-    text-align: center;
-}
-
-.container__botao {
-    margin-top: 1em; /* ou o valor desejado para espaçamento entre o texto e o botão */
+    .container__botao {
+        padding: 0.8em;
+        font-size: 14px;
+        margin-top: 1em;
+    }
 }
