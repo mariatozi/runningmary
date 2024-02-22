@@ -68,36 +68,36 @@ body {
     margin: 0 6em;
 }
 
-.secundario__imagem {
+/* .secundario__imagem {
     width: 80%;
-}
+} */
 
 .secundario {
     align-items: center;
     margin: 0 10em;
 }
 
-.descricao__titulo {
+/* .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
-}
+} */
 
-.descricao__subtitulo {
+/* .descricao__subtitulo {
     color: var(--cinza-secundario);
-}
+} */
 
-.secundario__botao {
+/* .secundario__botao {
     display: inline-block;
     margin-top: 1em;
-}
+} */
 
-.container__descricao {
+/* .container__descricao {
     padding: 2em;
-}
+} */
 
-.dispositivos__lista {
+/* .dispositivos__lista {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -111,13 +111,13 @@ body {
 .dispositivos__titulo {
     font-size: 48px;
     color: var(--branco-principal);
-}
+} */
 
-.lista__item {
+/* .lista__item {
     font-size: 32px;
     color: var(--branco-principal);
 
-}
+} */
 
 .rodape__lista {
     display: flex;
