@@ -34,6 +34,15 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__titulo {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1em; /* Adicionei uma margem inferior para separar do botão */
+    font-family: var(--fonte-principal);
+    align-items: center;
+    align-self: flex-end;
+}
+
 @media screen and (min-width: 1024px) {
 
 .container__botao {
@@ -62,7 +71,6 @@ body {
     margin: 1.5em;
     font-family: var(--fonte-principal);
     justify-content: center;
-    align-items: flex-end;
 }
 
 .container__imagem {
