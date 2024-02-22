@@ -60,6 +60,7 @@ body {
     font-size: 28px;
     font-weight: 700;
     margin: 1.5em;
+    font-family: var(--fonte-principal);
 }
 
 .container__imagem {
@@ -160,6 +161,7 @@ body {
         font-size: 20px;
         text-align: center;
         margin-bottom: 1em; /* Adicionei uma margem inferior para separar do botão */
+        font-family: var(--fonte-principal);
     }
 
     .container__botao {
