@@ -34,11 +34,6 @@ body {
     grid-template-columns: 50% 50%;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-}
-
 .container__botao {
     background-color: var(--bota-azul);
     border-radius: 5px;
@@ -159,20 +154,5 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
-}
-
-
-/* Media query para telas menores (por exemplo, dispositivos móveis) */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    /* Adicione mais estilos específicos para telas menores aqui */
-}
-
-
-img {
-    max-width: 100%;
-    height: auto;
 }
 
