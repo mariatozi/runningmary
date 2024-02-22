@@ -24,7 +24,7 @@ body {
     background-image: url(Img/logomaria.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center center; /* Adicionei esta linha para centralizar a imagem no fundo */
+    background-position: center; /* Adicionei esta linha para centralizar a imagem no fundo */
     align-items: center; /* Se este seletor estiver correto, pode ser removido, pois não se aplica a elementos com fundo de imagem */
     text-align: center; /* Se este seletor estiver correto, pode ser removido, pois não se aplica a elementos com fundo de imagem */
     display: flex; /* Adicionei este seletor para garantir a centralização vertical em dispositivos móveis */
