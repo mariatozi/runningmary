@@ -145,3 +145,23 @@ body {
     }
 }
 
+@media screen and (max-width: 1023px) {
+    .container__titulo {
+        font-size: 20px;
+    }
+}
+
+.container__caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__titulo {
+    text-align: center;
+}
+
+.container__botao {
+    margin-top: 1em; /* ou o valor desejado para espaçamento entre o texto e o botão */
+}
