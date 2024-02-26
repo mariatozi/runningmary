@@ -1,7 +1,7 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --bota-azul: #000000;
+    --botao-preto: #000000;
     --cor-de-fundo: #FF66C4;
     --fonte-principal: 'Inter';
     --botao-azul-efeito: #d6e8ff;
@@ -46,7 +46,7 @@ body {
 @media screen and (min-width: 1023px) {
 
 .container__botao {
-    background-color: var(--bota-azul);
+    background-color: var(--botao-preto);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
@@ -111,7 +111,7 @@ body {
 }
 
 .lista__link a:hover {
-    color: var(--bota-azul);
+    color: var(--botao-preto);
 }
 
 .lista__link a:active {
