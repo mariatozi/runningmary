@@ -46,7 +46,7 @@ body {
 @media screen and (min-width: 1023px) {
 
 .container__botao {
-    background-color: var(--botao-preto);
+    /* background-color: var(--botao-preto); */
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
